@@ -1,0 +1,299 @@
+/*******  basic *************/
+
+body {
+    margin:0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+/********** header *************/
+
+header {
+    width: 100%;
+}
+
+
+/************ header  nav ***************/
+
+nav > p {
+    font-size: .9rem;
+    text-align: center;
+}
+
+/************* header div *****************/
+
+header div {
+    width:50%;
+    margin: 0 auto;
+}
+
+header > div h1 {
+    font-size: 8rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+header div > div {
+    width:100%;
+    height: 100%;
+}
+
+header div > div img {
+    width: 100%;
+    height: 100%;
+}
+
+/*********** for all sections **********/
+section {
+    width:100%;
+}
+
+section div {
+    width:100%;
+    padding: 10% 10%;
+}
+
+section div small {
+    font-size: 1.2rem;
+    color:rgb(211, 209, 209);
+    display: block;
+}
+
+section div h2:first-of-type {
+    font-size: 8rem;
+    color:white;
+    font-weight: 500;
+}
+
+section div p {
+    font-size: 1.2rem;
+    color:rgb(211, 209, 209);
+}
+
+section div a {
+    text-decoration: none;
+    color:white;
+    padding: 20px 30px;
+    font-size: 1rem;
+    border:2px solid rgb(206, 206, 206);
+    display: block;
+    width: 60px;
+    margin-top: 10%;
+}
+
+section div h2:last-of-type {
+    color:rgba(165, 162, 162,.5);
+    font-size: 11rem;
+    margin-left: 70%;
+    margin-bottom: 0;
+    
+  
+}
+
+ /* section h1 {
+    color:rgb(126, 126, 126);
+    font-size: 40px;
+}  */
+
+
+/************* hover effect  ************/
+
+
+ /* section:nth-of-type(1) a:hover .num {
+    color:white;
+}  */
+
+section:nth-of-type(odd) div a:hover {
+    background: #fff;
+    color:black;
+    border:2px solid white;
+}
+
+section:nth-of-type(even) a:hover  ~ h2{
+    color: black !important;
+}
+
+section:nth-of-type(odd) a:hover  ~ h2{
+    color: white;
+}
+
+
+
+section:nth-of-type(even) div a:hover {
+    background: #000;
+    color:white;
+    border:2px solid black;
+}
+
+
+
+
+/***********  section 1 *************/
+
+section:first-of-type {
+    width:100%;
+    background: url(https://drive.google.com/thumbnail?id=1mElDY9b7SQ7zw0Z3AB98Eu2US3eP1mfI&authuser=0&sz=w1920-h969) no-repeat center/cover;
+    
+}
+
+section:first-of-type div {
+    width:100%;
+    padding: 10% 10%;
+}
+
+section:first-of-type div small {
+    font-size: 1.2rem;
+    display: block;
+}
+
+section:first-of-type div h2:first-of-type {
+    font-size: 8rem;
+    font-weight: 500;
+}
+
+section:first-of-type div p {
+    font-size: 1.2rem;
+}
+
+section:first-of-type div a {
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 1rem;
+    display: block;
+    width: 60px;
+    margin-top: 10%;
+}
+
+section:first-of-type div h2:last-of-type {
+    font-size: 13rem;
+    margin-left: 70%;
+ 
+}
+
+/**********  section 2 *************/
+
+section:nth-of-type(2)  {
+    background: url(https://drive.google.com/thumbnail?id=1HMkgnFe4R_G-SILJ71GCZzUWAXYyxcD1&authuser=0&sz=w1920-h969) no-repeat center/cover;
+    width: 100%;
+}
+
+section:nth-of-type(even) div small {
+    color: rgb(56, 56, 56);
+}
+
+section:nth-of-type(even) div h2:first-of-type {
+    color: black;
+}
+
+section:nth-of-type(even) div p {
+    color: rgb(56, 56, 56); 
+}
+
+section:nth-of-type(even) div a {
+    color: black;
+    border:2px solid black;
+}
+
+section:nth-of-type(even) div h2:last-of-type {
+    color: rgba(46, 46, 46, 0.5);
+}
+
+
+
+/*************   section 3  **************/
+
+
+section:nth-of-type(3)  {
+    background: url(https://drive.google.com/thumbnail?id=1sEudBRVGkos32eYaaDTJRNQdhhdONwu3&authuser=0&sz=w1920-h969) no-repeat center/cover;
+    width: 100%;
+}
+
+/*************  section 4  **************/
+
+section:nth-of-type(4)  {
+    background: url(https://drive.google.com/thumbnail?id=1eVvekKp4KvTSst5KPT9Z3KKgF4iTJWpC&authuser=0&sz=w1920-h969) no-repeat center/cover;
+    width: 100%;
+}
+
+
+
+/***********  section 5  **************/
+
+article {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+
+article > h1 {
+    color: white;
+    font-size: 11rem;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+article > div  {
+    color:rgb(151, 148, 148);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    width: 40%;
+    margin-left: 50%;
+}
+
+article > div h2 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+article > div a {
+    text-decoration: none;
+}
+
+article > div h2:hover {
+    text-decoration: underline;
+    
+}
+
+
+
+/*************   footer  **********/
+
+footer {
+    width: 100%;
+    height: 100vh;
+}
+
+footer > * {
+    font-size: 7rem;
+    text-align: center;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+
+footer > *:not(:last-child):hover {
+    text-decoration: underline;
+}
+
+footer span:after {
+    content: "\2764";
+    text-align: center;
+    margin-left: 50%;
+    font-size: 30px;
+    animation: beating .9s infinite;
+}
+
+@keyframes beating {
+    0% {
+        font-size: 30px
+    }
+
+    100%  {
+        font-size: 40px;
+    }
+}
