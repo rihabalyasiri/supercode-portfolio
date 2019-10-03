@@ -134,7 +134,7 @@ section:nth-of-type(even) div a:hover {
 
 section:first-of-type {
     width:100%;
-    background: url(https://drive.google.com/thumbnail?id=1mElDY9b7SQ7zw0Z3AB98Eu2US3eP1mfI&authuser=0&sz=w1920-h969) no-repeat center/cover;
+    background: url(img/portfolio2.jpg) no-repeat center/cover;
     
 }
 
@@ -175,7 +175,7 @@ section:first-of-type div h2:last-of-type {
 /**********  section 2 *************/
 
 section:nth-of-type(2)  {
-    background: url(https://drive.google.com/thumbnail?id=1HMkgnFe4R_G-SILJ71GCZzUWAXYyxcD1&authuser=0&sz=w1920-h969) no-repeat center/cover;
+    background: url(img/portfolio3.png) no-repeat center/cover;
     width: 100%;
 }
 
@@ -206,14 +206,14 @@ section:nth-of-type(even) div h2:last-of-type {
 
 
 section:nth-of-type(3)  {
-    background: url(https://drive.google.com/thumbnail?id=1sEudBRVGkos32eYaaDTJRNQdhhdONwu3&authuser=0&sz=w1920-h969) no-repeat center/cover;
+    background: url(img/portfolio4.jpg) no-repeat center/cover;
     width: 100%;
 }
 
 /*************  section 4  **************/
 
 section:nth-of-type(4)  {
-    background: url(https://drive.google.com/thumbnail?id=1eVvekKp4KvTSst5KPT9Z3KKgF4iTJWpC&authuser=0&sz=w1920-h969) no-repeat center/cover;
+    background: url(img/portfolio5.png) no-repeat center/cover;
     width: 100%;
 }
 
